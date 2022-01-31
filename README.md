@@ -1,8 +1,13 @@
-# MagicChessBoard
-My attempt at creating a magic chess board with ai self moving physical pieces. Which me luck!
+# Magic Chess Board
+My attempt at creating a magic chess board with ai controlled self moving physical pieces. Which me luck!
 
 ## Features
- - When I lift a piece the boards indicates with leds if that piece can be move and possible locations to place it on.
+ - Games modes:
+   * Player vs Player  
+   * Player vs Board 
+   * Player vs Remote Web Player 
+   * Player vs Remote Board player
+ - When I lift a piece the board indicates with leds if that piece can be moved and possible locations to place it on.
  - I can get help on a good move from the AI
  - When it is the AIs turn, it will decide on a move and move the piece using a stepper engine controlled electromagnet under the table.
 
