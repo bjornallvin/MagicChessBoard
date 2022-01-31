@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="iUIMmat6Us0ZZbb2syks" name="Page-1">
+        <mxGraphModel dx="822" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="board-controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Can move pices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="160" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Knows which locations have pices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="160" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Can detect when a piece is lifted or placed down" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Controlls leds on each location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="30" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="chess-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="85" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="knows chess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="170" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="can propose moves" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="170" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Remembers which piece is on wich location&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="30" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Manages board modes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="50" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
