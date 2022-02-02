@@ -29,7 +29,7 @@ My attempt at creating a magic chess board with ai controlled self moving physic
  - Electromagnet: 
 
 ## Shopping list
-Things purchased:
+Things purchased (as of 2022-02-01):
  - Ball bearings: https://www.amazon.se/dp/B07W679Y3S/ref=pe_24982401_506182521_TE_item
  - Magnetic sensor: https://www.amazon.se/dp/B07CB1ZW93/ref=pe_24982401_506182521_TE_item
  - Electro magnet: https://www.amazon.se/dp/B08FBCTF49/ref=pe_24982401_506182521_TE_item
