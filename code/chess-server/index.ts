@@ -1,31 +1,20 @@
 import express, { Application, Request, Response } from "express";
+import { resetGame } from "./game";
+const router = require("./routes");
 
 const app: Application = express();
 const port = 4000;
 
-const jsChessEngine = require("js-chess-engine");
-const game = new jsChessEngine.Game();
-
 // Body parsing Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-app.get("/", async (req: Request, res: Response): Promise<Response> => {
-  return res.status(200).send({
-    message: "Hello World!",
-  });
-});
+app.use("/", router);
 
 try {
   app.listen(port, (): void => {
     console.log(`Connected successfully on port ${port}`);
+    resetGame();
   });
-
-  game.printToConsole();
-  console.log(game.aiMove(1));
-  game.printToConsole();
-  console.log(game.move("e2", "e4"));
-  game.printToConsole();
 } catch (error: any) {
   console.error(`Error occured: ${error.message}`);
 }
