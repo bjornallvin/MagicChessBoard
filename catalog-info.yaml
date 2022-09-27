@@ -4,6 +4,7 @@ metadata:
   name: MagicChessBoard
   annotations:
     github.com/project-slug: bjornallvin/MagicChessBoard
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
